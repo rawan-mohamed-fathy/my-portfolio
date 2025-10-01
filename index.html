@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rawan Mohamed | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed w-full bg-white shadow z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-purple-600"><i class="fa-solid fa-code"></i> RM</h1>
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="#about" class="hover:text-purple-600"><i class="fa-solid fa-user"></i> About</a></li>
+          <li><a href="#skills" class="hover:text-purple-600"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
+          <li><a href="#projects" class="hover:text-purple-600"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+          <li><a href="#contact" class="hover:text-purple-600"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="h-screen flex items-center justify-center bg-gradient-to-r from-purple-400 to-pink-500 text-white text-center px-6">
+    <div>
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Rawan Mohamed Fathy</h2>
+      <p class="text-lg md:text-2xl mb-6"><i class="fa-solid fa-vial-circle-check mr-2"></i> Software Tester | Manual & Automation</p>
+      <div class="space-x-4">
+        <a href="#projects" class="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold shadow hover:bg-gray-100"><i class="fa-solid fa-eye"></i> View My Work</a>
+        <a href="#contact" class="border border-white px-6 py-2 rounded-full font-semibold hover:bg-white hover:text-purple-600"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10 text-purple-600"><i class="fa-solid fa-user"></i> About Me</h3>
+    <div class="max-w-3xl mx-auto text-center text-gray-600">
+      <p class="mb-4">Hi, I’m <span class="font-semibold text-purple-600">Rawan Mohamed</span>, a passionate Software Tester.</p>
+      <p><i class="fa-solid fa-bug mr-2 text-purple-600"></i> Specialized in <b>Manual & Automation Testing</b>, with experience in Selenium, Postman, and JIRA.  
+      <br><i class="fa-solid fa-magnifying-glass mr-2 text-purple-600"></i> Skilled in bug reporting, writing & executing test cases.  
+      <br><i class="fa-solid fa-code-branch mr-2 text-purple-600"></i> Experienced with Java & Git for collaborative testing and code quality.  
+      <br><i class="fa-solid fa-rocket mr-2 text-purple-600"></i> My goal is delivering high-quality, reliable software.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 bg-gray-100">
+    <h3 class="text-3xl font-bold text-center mb-10 text-purple-600"><i class="fa-solid fa-lightbulb"></i> Skills & Expertise</h3>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto px-6 text-center">
+      <div class="p-6 bg-white shadow rounded-lg hover:shadow-lg">
+        <i class="fa-solid fa-list-check text-purple-600 text-3xl mb-2"></i>
+        <p>Manual Testing</p>
+      </div>
+      <div class="p-6 bg-white shadow rounded-lg hover:shadow-lg">
+        <i class="fa-solid fa-robot text-purple-600 text-3xl mb-2"></i>
+        <p>Automation Testing</p>
+      </div>
+	  <div class="p-6 bg-white shadow rounded-lg hover:shadow-lg">
+        <i class="fa-solid fa-network-wired text-purple-600 text-3xl mb-2"></i>
+        <p>API Testing</p>
+      </div>
+      <div class="p-6 bg-white shadow rounded-lg hover:shadow-lg">
+        <i class="fa-brands fa-java text-purple-600 text-3xl mb-2"></i>
+        <p>Java</p>
+      </div>
+      <div class="p-6 bg-white shadow rounded-lg hover:shadow-lg">
+        <i class="fa-brands fa-jira text-purple-600 text-3xl mb-2"></i>
+        <p>JIRA</p>
+      </div>
+      <div class="p-6 bg-white shadow rounded-lg hover:shadow-lg">
+        <i class="fa-solid fa-bug text-purple-600 text-3xl mb-2"></i>
+        <p>Bug Tracking</p>
+      </div>
+      
+	  <div class="p-6 bg-white shadow rounded-lg hover:shadow-lg">
+        <i class="fa-solid fa-bug text-purple-600 text-3xl mb-2"></i>
+        <p>Bug Report</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-10 text-purple-600"><i class="fa-solid fa-diagram-project"></i> Projects</h3>
+    <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+      
+      <!-- Project 1 with Video -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <div class="bg-gray-200 h-64 flex items-center justify-center">
+          <video controls class="w-full h-full object-cover">
+            <source src="shopping-cart-demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-2"><i class="fa-solid fa-cart-shopping text-purple-600"></i> Shopping Cart App (Java)</h4>
+          <p class="text-gray-600 mb-4">Performed manual testing and used PMD tool to analyze and improve code.</p>
+        </div>
+      </div>
+      
+      <!-- Project 2 with Test Cases Images -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <div class="grid grid-cols-2 gap-2 bg-gray-200 p-2">
+          <img src="testcase1.png" alt="Test Case 1" class="rounded">
+          <img src="testcase2.png" alt="Test Case 2" class="rounded">
+          <img src="testcase3.png" alt="Test Case 3" class="rounded">
+          <img src="testcase4.png" alt="Test Case 4" class="rounded">
+        </div>
+        <div class="p-6">
+          <h4 class="font-bold text-xl mb-2"><i class="fa-solid fa-mobile-screen text-purple-600"></i> Swag Labs App (Manual Testing)</h4>
+          <p class="text-gray-600 mb-4">Designed 50+ test cases for Homepage, User account, checkout, and payment.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-gray-100">
+    <h3 class="text-3xl font-bold text-center mb-10 text-purple-600"><i class="fa-solid fa-envelope"></i> Contact Me</h3>
+    <div class="max-w-3xl mx-auto text-center text-gray-600 space-y-4">
+      <p><i class="fa-solid fa-envelope-circle-check text-purple-600 mr-2"></i> rawanmohamedfathy4@gmail.com</p>
+      <p><i class="fa-solid fa-phone text-purple-600 mr-2"></i> +201515315653</p>
+      <p><i class="fa-brands fa-linkedin text-purple-600 mr-2"></i> <a href="https://www.linkedin.com/in/rawan-mohamed-556355274/" target="_blank" class="hover:underline">LinkedIn Profile</a></p>
+    </div>
+  </section>
+
+  <footer class="py-6 bg-white text-center text-gray-500 border-t">
+    <p>© 2025 Rawan Mohamed. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
